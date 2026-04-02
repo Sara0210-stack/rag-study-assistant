@@ -1,16 +1,23 @@
 # 📚 RAG Study Assistant (Local AI)
 
-An AI-powered document assistant that allows users to upload PDFs and ask questions using a Retrieval-Augmented Generation (RAG) pipeline.
+An AI-powered assistant that allows users to upload PDF documents and ask questions using a Retrieval-Augmented Generation (RAG) pipeline.
+
+---
 
 ## 🚀 Features
+
 - 📄 Upload PDF documents
-- 💬 Ask questions about the document
-- 🧠 Uses semantic search (FAISS + embeddings)
+- 💬 Ask questions based on document
+- 🧠 Semantic search using FAISS
 - 🤖 Local LLM (Phi via LM Studio)
-- 📌 Source-based answers (Explainable AI)
-- 🧪 Quiz generation & summary
+- 📌 Source-based answers
+- 💬 Chat history (like ChatGPT)
+- 📄 Summary & Quiz generation
+
+---
 
 ## 🛠️ Tech Stack
+
 - Python
 - Streamlit
 - LangChain
@@ -18,26 +25,34 @@ An AI-powered document assistant that allows users to upload PDFs and ask questi
 - Sentence Transformers
 - LM Studio (Phi model)
 
-## ⚙️ How it Works
-1. PDF is loaded and split into chunks  
-2. Chunks are converted into embeddings  
-3. Stored in FAISS vector database  
-4. User query retrieves relevant chunks  
-5. LLM generates answer based on context  
+---
+
+## ⚙️ How It Works
+
+1. Upload PDF  
+2. Text is extracted and split into chunks  
+3. Chunks are converted into embeddings  
+4. Stored in FAISS vector database  
+5. Query retrieves relevant chunks  
+6. LLM generates context-based answer  
+
+---
+
+## 📸 Screenshots
+
+![Chat UI](assets/chat.png)
+![Sources](assets/sources.png)
+
+---
 
 ## ▶️ Run Locally
 
 ```bash
-git clone https://github.com/your-username/rag-study-assistant.git
+git clone https://github.com/Sara0210-stack/rag-study-assistant.git
 cd rag-study-assistant
 
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate
 
 pip install -r requirements.txt
 streamlit run app.py
-
-![My App](assets/screenshot.png)
-
-💡 Author
-Sara Shaikh
