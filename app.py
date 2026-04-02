@@ -4,7 +4,7 @@ import tempfile
 from loader import load_pdf
 from splitter import split_pdf
 from faiss_store import create_vectorstores
-from test_llm import get_llm
+from llm import get_llm
 from rag_chain import generate_response
 
 st.set_page_config(page_title="RAG Study Assistant", layout="wide")

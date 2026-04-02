@@ -40,8 +40,7 @@ An AI-powered assistant that allows users to upload PDF documents and ask questi
 
 ## 📸 Screenshots
 
-![Chat UI](assets/chat.png)
-![Sources](assets/sources.png)
+![RAG App](assets/Screenshot.png)
 
 ---
 
