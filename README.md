@@ -72,6 +72,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
 
+```
+
 ---
 
 
@@ -83,6 +85,7 @@ streamlit run app.py
 - Managing local LLM inference performance
 - Refining prompts for context-aware answers
 
+---
 
 ## 🔮 Future Improvements
 
@@ -93,11 +96,13 @@ streamlit run app.py
 - Citation grounding for more reliable responses
 - Optimized local inference for faster response generation
 
+---
 
 ## 🧠 Why RAG?
 
 Retrieval-Augmented Generation (RAG) improves LLM responses by retrieving relevant context from uploaded documents before generating answers. This helps reduce hallucinations and improves factual accuracy.
 
+---
 
 ## 📂 Project Structure
 
