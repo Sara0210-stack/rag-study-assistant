@@ -106,6 +106,7 @@ Retrieval-Augmented Generation (RAG) improves LLM responses by retrieving releva
 
 ## 📂 Project Structure
 
+```text
 app.py              # Streamlit application
 loader.py           # PDF loading logic
 splitter.py         # Text chunking
